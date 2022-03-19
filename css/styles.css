@@ -1,0 +1,295 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto; */
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar-nav{
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%); 
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: lightgray;
+}
+
+#top_container {
+  /* padding-bottom: 450px; */
+  height: 100vh;
+   width: 100vw;
+ text-align: center;
+  /* opacity:0.85;
+ filter:alpha(opacity=85); */
+}
+
+#top_container h1{
+  font-size: 5.8rem;
+  /* text-align: left; */
+  margin: 0px;
+  color: white;
+  padding-left: 60px;
+  padding-top: 100px;
+  line-height: 1;
+}
+#top_container h3{
+  font-size: 2.5rem;
+  /* text-align: left; */
+  margin: 0px;
+  color: white;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+#top_container h4{
+  font-size: 1.5rem;
+  padding-top: 30px;
+  color: white;
+  width: 50%;
+  padding-left: 60px;
+  text-align: left;
+}
+
+.bottom-container {
+  background-color: black;
+  color: white;
+  padding-top: 20px; 
+}
+
+.perfil {
+  border-radius: 100px;
+}
+
+.skill-row {
+  line-height: 2;
+  text-align: left;
+  margin: 100px  auto;
+  width: 50%;
+}
+
+.skillimage {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.skillimage2 {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+
+
+.Contactame {
+  margin-top:30px;
+  font-size: 3rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 40px;
+  background: #3D94F6;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: Brush Script MT;
+  font-size: 17px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+}
+
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+p{
+  font-size: 120%;
+  font-weight:normal;
+}
+
+
+.presentacion{
+  margin: auto auto 30px  auto;
+  width: 40%;
+  padding-top: 20px;
+}
+
+
+
+#middle-container{
+  padding-top: 80px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+ 
+}
+
+.profile h2{
+  font-size: 3rem;
+  margin-top: 30px;
+  text-decoration:overline;
+}
+
+#aprendizaje{
+  padding-bottom: 100px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.titulos{
+ margin-bottom: 80px; 
+ font-size: 3.5rem;
+ text-decoration: overline;
+}
+.details:hover{
+  background-color: #3D94F6;
+}
+
+.nav-link:hover{
+text-decoration: underline;
+}
+
+.icon-heart{
+color: red;
+}
+
+.nombre{
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+/* #proyectos h1:not(.name-page){
+font-size: 4.5rem;
+text-decoration: overline;
+font-weight: bold;
+} */
+
+.proyecto1 {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Make the image to responsive */
+.page{
+  width: 100%;
+  height: auto;
+  border-radius: 4%;
+ 
+}
+
+#proyectos{
+padding-bottom: 50px;
+}
+
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.sobreponer  {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: rgb(8, 9, 17);
+}
+
+/* When you mouse over the container, fade in the overlay icon*/
+.proyecto1:hover .sobreponer {
+  opacity: 0.4;
+}
+
+
+.sobreponer a{
+ position: relative;
+ top: 200px;
+}
+
+.fa-arrow-right:hover{
+  color: #fcfcfc;
+}
+
+.name-page{
+  position: relative;
+  top:180px;
+} 
+/* media queries */
+/* @media only screen and (min-width : 768px) and (max-width : 1024px) {
+  
+}
+
+@media only screen and (min-width : 1224px) {
+
+}
+
+@media only screen and (min-width : 992px) and (max-width:1224px) {
+
+}
+
+@media only screen and (min-width : 1824px) {
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  
+} */
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+@media all and (max-width: 480px) { 
+  .presentacion{
+    text-align:justify
+  }
+
+  #aprendizaje h1{
+    font-size: 3rem; 
+   }
+}
+
+/* acordarme de parte de proyectos  */
