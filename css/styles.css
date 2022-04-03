@@ -1,16 +1,12 @@
 *{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
   /* min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto; */
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -32,7 +28,6 @@ a:hover{
 #top_container {
   /* padding-bottom: 450px; */
   height: 100vh;
-   width: 100vw;
  text-align: center;
   /* opacity:0.85;
  filter:alpha(opacity=85); */
@@ -40,7 +35,6 @@ a:hover{
 
 #top_container h1{
   font-size: 5.8rem;
-  /* text-align: left; */
   margin: 0px;
   color: white;
   padding-left: 60px;
@@ -140,15 +134,18 @@ a:hover{
   text-decoration: none;
 }
 
-p{
-  font-size: 120%;
+.skill-row p{
+  font-size:1.5rem;
   font-weight:normal;
 }
 
-
+.skill-row h3{
+  font-weight: 700;
+  font-size:2.5rem;
+}
 .presentacion{
   margin: auto auto 30px  auto;
-  width: 40%;
+  width: 80%;
   padding-top: 20px;
 }
 
@@ -202,7 +199,7 @@ text-decoration: overline;
 font-weight: bold;
 } */
 
-.proyecto1 {
+.proyecto {
   position: relative;
   width: 60%;
   margin: 0 auto;
@@ -213,15 +210,12 @@ font-weight: bold;
   width: 100%;
   height: auto;
   border-radius: 4%;
- 
 }
 
 #proyectos{
 padding-bottom: 50px;
 }
 
-
-/* The overlay effect (full height and width) - lays on top of the container and over the image */
 .sobreponer  {
   position: absolute;
   top: 0;
@@ -235,8 +229,8 @@ padding-bottom: 50px;
   background-color: rgb(8, 9, 17);
 }
 
-/* When you mouse over the container, fade in the overlay icon*/
-.proyecto1:hover .sobreponer {
+
+.proyecto:hover .sobreponer {
   opacity: 0.4;
 }
 
@@ -251,9 +245,10 @@ padding-bottom: 50px;
 }
 
 .name-page{
-  position: relative;
-  top:180px;
-} 
+ font-weight: bold;
+}
+
+
 /* media queries */
 /* @media only screen and (min-width : 768px) and (max-width : 1024px) {
   
@@ -280,16 +275,50 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 @media all and (min-width: 768px) and (max-width: 1024px) { }
 
-@media all and (min-width: 480px) and (max-width: 768px) { }
+@media all and (min-width: 480px) and (max-width: 768px) { 
+  .sobreponer a{
+    position: relative;
+    top: 0px;
+   }
+   /* .name-page{
+   position: relative;
+   bottom: 20px; */
+}
 
 @media all and (max-width: 480px) { 
-  .presentacion{
-    text-align:justify
-  }
-
+  
   #aprendizaje h1{
     font-size: 3rem; 
-   }
+   } 
+
+  .skillimage {
+    width: 45%;;
+   float: none;
+    margin: 0 auto;
+    display:block;
+  } 
+  .skillimage2 {
+    width: 45%;;
+  } 
+
+  .skill-row {
+    width: 70%;
+  }
+  
+.proyecto {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+.sobreponer a{
+  position: relative;
+  top: 0px;
+ }
+ .name-page{
+ position: relative;
+ bottom: 20px;
+} 
+
 }
 
 /* acordarme de parte de proyectos  */
