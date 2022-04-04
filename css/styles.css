@@ -1,15 +1,11 @@
-*{
-  margin: 0px;
-  padding: 0px;
-}
-
 body {
   /* min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto; */
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
-}
+
+} 
 
 .navbar-nav{
   position: relative;
@@ -155,7 +151,6 @@ a:hover{
   padding-top: 80px;
     background-color: white;
     color: rgb(0, 0, 0);
- 
 }
 
 .profile h2{
@@ -247,6 +242,7 @@ padding-bottom: 50px;
 .name-page{
  font-weight: bold;
 }
+
 
 
 /* media queries */
