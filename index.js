@@ -1,15 +1,16 @@
 var intro = document.getElementById('intro');
-var nombre = "Hi I'm eliu";
+var nombre = "Hola soy Eliu";
 
 var typewriter = new Typewriter(intro, {
-  loop: true,
+  loop: false,
   delay: 60,
+  cursor:''
 });
 
 var intro2 = document.getElementById('intro2');
 
 var typewriter2 = new Typewriter(intro2, {
-  loop: true,
+  loop: false,
   delay: 60,
   cursor:''
 });
@@ -17,18 +18,17 @@ var typewriter2 = new Typewriter(intro2, {
 typewriter
 .pauseFor(1000)
   .typeString(nombre)
-  .pauseFor(7000)
+  .pauseFor(3000)
     .deleteChars(nombre.length)
-  // .typeString('<strong>Soy Desarrollador web</strong> ')
   .start();
 
   
 
 typewriter2
+  .pauseFor(7000)
+  .typeString("Soy Estudiante de Programación")
   .pauseFor(3000)
-  .typeString("I'm a Web Developer")
-  .pauseFor(2000)
-  .deleteChars(21)
-  .typeString("I love to build new things")
-  .pauseFor(1000)
+  .deleteChars(30)
+  .typeString("Me gusta construir cosas y resolver problemas")
+  .pauseFor(3000)
   .start();
